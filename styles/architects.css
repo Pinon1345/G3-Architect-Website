@@ -199,7 +199,17 @@ main > section{
 .sponsor-companies img{
     filter: grayscale(100%);
 }
-
+/* footer section */
+.footer-container{
+    background-color: #FFF4E7;
+    padding: 130px 240px auto 240px;
+    border-radius: 5px;
+}
+.footer-text{
+    font-size: 20px;
+    margin: 38px auto;
+    text-align: center;
+}
 
 /* responsive media query */
 @media screen and (max-width: 576px) {
@@ -230,6 +240,9 @@ main > section{
         margin-left: 20px;
 
     }
+    .footer-container{
+        margin: 0 auto;
+    }
 
     
 }
@@ -256,6 +269,9 @@ main > section{
         margin-top: 20px;
         margin-left: 20px;
 
+    }
+    .footer-container{
+        margin: 0px auto;
     }
     
 }
